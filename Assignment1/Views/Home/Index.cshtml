@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    /* CSS for the dropdown menu */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+</style>
+
+<div class="container">
+    <h1>SportPro Technical Support</h1>
+    <p>Sport Management software for sports fans.</p>
+</div>
+
+<div>
+    <div class="dropdown">
+        <a class="btn btn-primary" href="#">Admin</a>
+        <div class="dropdown-content">
+            <a href="#">Manage Products</a>
+            <a href="#">Manage Technicians</a>
+            <a href="#">Manage Customers</a>
+            <a href="#">Manage Incidents</a>
+            <a href="#">Manage Registrations</a>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
